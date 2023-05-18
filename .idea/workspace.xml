@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30fd0763-2276-4920-bec5-b483bda04da3" name="Changes" comment="Inicio del tema">
-      <change afterPath="$PROJECT_DIR$/src/teoria/app3/App4.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/teoria/app3/App4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/teoria/app3/Controlador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/teoria/app3/Modelo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/teoria/app3/Test.java" afterDir="false" />
+    <list default="true" id="30fd0763-2276-4920-bec5-b483bda04da3" name="Changes" comment="MVC en swing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/teoria/app3/App4.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/teoria/app4/App4.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/teoria/app3/App4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/teoria/app4/App4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/teoria/app3/Controlador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/teoria/app3/Modelo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/teoria/app3/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/teoria/app4/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,15 +36,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "71",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "367",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH&quot;: &quot;71&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;367&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,11 +61,19 @@
       <option name="project" value="LOCAL" />
       <updated>1684165421946</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="MVC en swing">
+      <created>1684251765969</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684251765969</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Inicio del tema" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inicio del tema" />
+    <MESSAGE value="MVC en swing" />
+    <option name="LAST_COMMIT_MESSAGE" value="MVC en swing" />
   </component>
 </project>

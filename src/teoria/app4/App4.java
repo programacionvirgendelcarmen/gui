@@ -1,7 +1,8 @@
-package teoria.app3;
+package teoria.app4;
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.List;
 
 public class App4 extends JFrame{
     private JPanel mainPanel;
@@ -20,19 +21,11 @@ public class App4 extends JFrame{
     private JButton botonMenos;
     private JButton botonPor;
     private JButton botonDividir;
-    private JButton botonModulo;
+    private JButton botonReset;
     private JButton botonIgual;
 
     public App4()  {
         crearVista();
-        boton1.addActionListener(actionEvent -> {
-            System.out.println("Pulsado botón 1");
-            display.setText("1");
-        });
-        boton2.addActionListener(actionEvent -> {
-            System.out.println("Pulsado botón 2");
-            display.setText("2");
-        });
     }
 
     private void crearVista() {
@@ -101,11 +94,20 @@ public class App4 extends JFrame{
         return botonDividir;
     }
 
-    public JButton getBotonModulo() {
-        return botonModulo;
+    public JButton getBotonReset() {
+        return botonReset;
     }
 
     public JButton getBotonIgual() {
         return botonIgual;
+    }
+
+    public JTextField getDisplay() {
+        return display;
+    }
+    public List<JButton> getGrupoBotones() {
+        return List.of(boton0, boton1, boton2, boton3, boton4, boton5,
+                boton6, boton7, boton8, boton9, botonMas, botonMenos,
+                botonDividir, botonPor);
     }
 }
